@@ -21,9 +21,8 @@ public final class Main {
             do {
                 boolean pythonCourse = askYesNo(input, out, "Completed Python coursework?");
                 boolean softwareCourse = askYesNo(input, out, "Completed Software Engineering coursework?");
-                boolean agileCourse = askYesNo(input, out, "Completed an Agile course? (optional skill)");
-                boolean git = askYesNo(input, out, "Have you used Git? (optional skill)");
-                out.println("Answer each degree question separately. Only Computer Science degrees count.");
+                boolean agileCourse = askYesNo(input, out, "Completed an Agile course? (optional)");
+                boolean git = askYesNo(input, out, "Have you used Git? (optional)");
                 boolean bachelors = askYesNo(input, out, "Hold a Bachelor's degree in Computer Science?");
                 boolean masters = askYesNo(input, out, "Hold a Master's degree in Computer Science?");
                 boolean pmi = askYesNo(input, out, "Hold the PMI Lean Project Management Certification?");
